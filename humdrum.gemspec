@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nick Bender"]
   spec.email         = ["nickbender@gmail.com"]
   spec.description   = %q{Check if an email address is common}
-  spec.summary       = %q{Check email addresses against a list public email domains to determine if they are common}
+  spec.summary       = %q{Check email addresses against a list of public email domains to determine if it is common}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
