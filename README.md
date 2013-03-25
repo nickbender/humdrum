@@ -1,6 +1,6 @@
 # Humdrum
 
-Humdrum is a simple gem for checking whether an email address is from a common public domain (e.g. gmail.com, hotmail.com etc.).  Current listing includes over 500 international email domains, but if I'm missing any crucial ones please send a pull request
+Humdrum is a simple gem for checking whether an email address is from a common public domain (e.g. gmail.com, hotmail.com etc.). 
 
 ## Installation
 
@@ -18,15 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-require 'humdrum'
+	
+    require 'humdrum'
 
-Humdrum.is_common? 'user@gmail.com'
-=> *true*
+    Humdrum.is_common? 'user@gmail.com' 
+      => TRUE
 
-Humdrum.is_common? 'unique@validseriousbusiness.org'
-=> *false*
+    Humdrum.is_common? 'unique@validseriousbusiness.org' 
+      => FALSE
+
 
 ## Contributing
+
+ As with the nature of domains, this list is only a 'best guess', so use with caution, or send a pull request with additional domains.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
