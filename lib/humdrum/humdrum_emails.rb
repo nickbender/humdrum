@@ -797,6 +797,7 @@ module Humdrum
 
     def self.ms_list
       ms_list = {
+                "hotmail.com" => 1,
                 "outlook.com" => 1,
                 "hotmail.fr" => 1,
                 "live.com" => 1,
