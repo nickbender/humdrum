@@ -2,6 +2,8 @@
 
 Humdrum is a simple gem for checking whether an email address is from a common public domain (e.g. gmail.com, hotmail.com etc.). 
 
+New in 0.0.5:  Check if an email belongs to a microsoft domain.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -25,6 +27,12 @@ Or install it yourself as:
       => TRUE
 
     Humdrum.is_common? 'unique@validseriousbusiness.org' 
+      => FALSE
+
+    Humdrum.is_outlook? 'user@hotmail.com'
+      => TRUE
+
+    Humdrum.is_outlook? 'user@gmail.com'
       => FALSE
 
 
