@@ -25,7 +25,20 @@ describe Humdrum do
       result = Humdrum.is_common?(email)
       result.should == false
     end
+  end
 
+  describe "is_outlook?" do
+    it "should return true if outlook" do
+      email = "user@outlook.com"
+      result = Humdrum.is_outlook?(email)
+      result.should == true
+    end
+
+    it "should return false if gmail" do
+      email = "user@gmail.com"
+      result = Humdrum.is_outlook?(email)
+      result.should == false
+    end
   end
 end
   

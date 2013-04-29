@@ -3,10 +3,9 @@ module Humdrum
     #Emails created as a cash to ensure order 1 lookup.
     #Key values are completely arbitrary.
     #
-    #Obviously, the table is completely unsorted, so please 
+    #Obviously, the table is completely unsorted, so please
     # search to ensure no duplicates exist before adding
     # domains.
-
     def self.list
       list = {  "1033edge.com" => 1,
                 "11mail.com" => 1,
@@ -33,8 +32,8 @@ module Humdrum
                 "cyberdude.com" => 1,
                 "cybergal.com" => 1,
                 "unforgettable.com" => 1,
-                "writeme.com" => 1,     
-                "usa.net" => 1,             
+                "writeme.com" => 1,
+                "usa.net" => 1,
                 "amrer.net" => 1,
                 "amuro.net" => 1,
                 "amuromail.com" => 1,
@@ -793,7 +792,72 @@ module Humdrum
                 "hnamail.com" => 1,
                 "email.com" => 1,
                 "bluewin.ch" => 1
-          }
+                }
+    end
+
+    def self.ms_list
+      ms_list = {
+                "outlook.com" => 1,
+                "hotmail.fr" => 1,
+                "live.com" => 1,
+                "hotmail.co.uk" => 1,
+                "hotmail.it" => 1,
+                "windowslive.com" => 1,
+                "live.fr" => 1,
+                "hotmail.de" => 1,
+                "hotmail.es" => 1,
+                "live.co.uk" => 1,
+                "live.it" => 1,
+                "hotmail.co.jp" => 1,
+                "live.com.mx" => 1,
+                "live.nl" => 1,
+                "live.de" => 1,
+                "live.cn" => 1,
+                "live.ru" => 1,
+                "live.ca" => 1,
+                "live.com.ar" => 1,
+                "hotmail.co.th" => 1,
+                "live.com.au" => 1,
+                "live.jp" => 1,
+                "live.se" => 1,
+                "live.cl" => 1,
+                "live.com.pt" => 1,
+                "live.be" => 1,
+                "live.dk" => 1,
+                "hotmail.com.tr" => 1,
+                "livemail.tw" => 1,
+                "live.no" => 1,
+                "hotmail.se" => 1,
+                "hotmail.com.tw" => 1,
+                "live.co.kr" => 1,
+                "hotmail.co.nz" => 1,
+                "live.at" => 1,
+                "live.in" => 1,
+                "hotmail.gr" => 1,
+                "hotmail.be" => 1,
+                "live.hk" => 1,
+                "live.ie" => 1,
+                "msn.cn" => 1,
+                "hotmail.co.kr" => 1,
+                "hotmail.no" => 1,
+                "hotmail.ch" => 1,
+                "live.co.za" => 1,
+                "hotmail.com.hk" => 1,
+                "live.com.my" => 1,
+                "live.com.sg" => 1,
+                "hotmail.fi" => 1,
+                "hotmail.my" => 1,
+                "hotmail.co.id" => 1,
+                "hotmail.sg" => 1,
+                "hotmail.com.au" => 1,
+                "hotmail.co.za" => 1,
+                "hotmail.dk" => 1,
+                "hotmail.rs" => 1,
+                "live.com.ph" => 1,
+                "hotmail.ph" => 1,
+                "hotmail.com.vn" => 1,
+                "hotmail.cz" => 1
+            }
     end
   end
 end

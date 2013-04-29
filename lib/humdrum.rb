@@ -7,4 +7,10 @@ module Humdrum
   	email = email.split("@")[1].downcase.strip
   	HumdrumEmails.list.has_key?(email)
   end
+
+  def self.is_outlook?(email)
+    return false if email.nil? or not email.include?("@")
+    email = email.split("@")[1].downcase.strip
+    HumdrumEmails.ms_list.has_key?(email)
+  end
 end
