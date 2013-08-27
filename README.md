@@ -20,21 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-	
-    require 'humdrum'
+```ruby	
+require 'humdrum'
 
-    Humdrum.is_common? 'user@gmail.com' 
-      => TRUE
+Humdrum.is_common? 'user@gmail.com' 
+  # => TRUE
 
-    Humdrum.is_common? 'unique@validseriousbusiness.org' 
-      => FALSE
+Humdrum.is_common? 'unique@validseriousbusiness.org' 
+  # => FALSE
 
-    Humdrum.is_outlook? 'user@hotmail.com'
-      => TRUE
+Humdrum.is_outlook? 'user@hotmail.com'
+  # => TRUE
 
-    Humdrum.is_outlook? 'user@gmail.com'
-      => FALSE
-
+Humdrum.is_outlook? 'user@gmail.com'
+  # => FALSE
+```
 
 ## Contributing
 
