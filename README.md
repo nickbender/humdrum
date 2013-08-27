@@ -24,16 +24,16 @@ Or install it yourself as:
 require 'humdrum'
 
 Humdrum.is_common? 'user@gmail.com' 
-  => TRUE
+  # => TRUE
 
 Humdrum.is_common? 'unique@validseriousbusiness.org' 
-  => FALSE
+  # => FALSE
 
 Humdrum.is_outlook? 'user@hotmail.com'
-  => TRUE
+  # => TRUE
 
 Humdrum.is_outlook? 'user@gmail.com'
-  => FALSE
+  # => FALSE
 ```
 
 ## Contributing
